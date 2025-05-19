@@ -18,7 +18,7 @@ I (00:00:00.140) init: load iot value 0
 I (00:00:00.141) init: load robot version
 I (00:00:00.143) init: load robot pdt_ver 31100
 I (00:00:00.147) init: load device name MyMower
-I (00:00:00.152) init: load device sn 24021680010300051760
+I (00:00:00.152) init: load device sn XXXXXXXXXXXXXXXXXXXX
 I (00:00:00.159) uart: ESP_INTR_FLAG_IRAM flag not set while CONFIG_UART_ISR_IN_IRAM is enabled, flag updated
 I (00:00:00.166) uart: queue free spaces: 8
 I (00:00:00.171) init: bsp init finish
@@ -41,11 +41,11 @@ I (00:00:00.283) main: rain sensor : 1
 I (00:00:04.530) MachineState: Set name: MyMower
 I (00:00:04.532) MachineState: Set model: RMC300E20V-ECDNSS
 I (00:00:04.532) MachineState: Set avail: 4
-I (00:00:04.533) MachineState: Set sn: 24021680010300051760
+I (00:00:04.533) MachineState: Set sn: XXXXXXXXXXXXXXXXXXXX
 I (00:00:04.558) MachineState: env set version ok
-I (00:00:05.879) iot drive: Iot service start,sn: 24021680010300051760, bt name: MyMower
+I (00:00:05.879) iot drive: Iot service start,sn: XXXXXXXXXXXXXXXXXXXX, bt name: MyMower
 I (00:00:05.883) iot drive: set wifi ssid & passwd has been set,ssid:cy-public pwd:88888888
-I (00:00:05.884) Iot: Iot start,sn: 24021680010300051760, name :Mower_00051760
+I (00:00:05.884) Iot: Iot start,sn: XXXXXXXXXXXXXXXXXXXX, name :Mower_XXXXXXXX
 I (00:01:00.103) MachineState: rain adc value:4095
 I (00:01:11.679) main: robot status : idle
 I (00:01:30.693) main: Check password
@@ -141,7 +141,7 @@ Page no. 2, Status: Active
  nvs.net80211:sta.apsw[0] = b'\x05\x00'
  nvs.net80211:sta.chan = 11
  seed_lib:MOW_seed = 60177
- Robot_env:robot_sn = b'24021680010300051760\x00'
+ Robot_env:robot_sn = b'XXXXXXXXXXXXXXXXXXXX\x00'
  Robot_env:pdt_ver = 31100
  Robot_env:iot_mode = 0
  Robot_env:iot_value = 0
